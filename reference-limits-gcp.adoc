@@ -168,7 +168,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 | 論理ストレージ | パラメータ | 制限（ Limit ） 
 
 
-.2+| * ファイル * | 最大サイズ | 16 TB 
+.2+| * ファイル * | 最大サイズ^2^ | 128 TB 
 
 
 | ボリュームあたりの最大数 | ボリュームサイズは最大 20 億個です 
@@ -183,7 +183,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 | 最小サイズ | 20MB 
 
 
-| 最大サイズ | 100TB 
+| 最大サイズ^3^ | 300TB 
 
 
 | * qtree * | FlexVol あたりの最大数 | 4,995人 
@@ -192,6 +192,8 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 | * Snapshot コピー * | FlexVol あたりの最大数 | 1,023 
 |===
 . クローン階層の深さは、 1 つの FlexVol から作成できる、ネストされた FlexClone ボリュームの最大階層です。
+. ONTAP 9.12.1P2以降では、上限は128TBです。ONTAP 9.11.1以前のバージョンでは、最大16TBです。
+. Cloud Volumes ONTAP 9.12.1 P2および9.13.0 P2以降では、System ManagerおよびONTAP CLIを使用して、最大サイズ300TiBのFlexVolボリュームを作成できます。
 
 
 
