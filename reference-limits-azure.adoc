@@ -18,6 +18,7 @@ Cloud Volumes ONTAP には、安定した運用を実現するために、スト
 
 
 
+[[maximum-system-capacity-by-license]]
 == ライセンス別の最大システム容量
 
 Cloud Volumes ONTAP システムの最大システム容量はライセンスで決まります。最大システム容量には、ディスクベースのストレージに加えて、データの階層化に使用されるオブジェクトストレージが含まれます。
@@ -51,6 +52,7 @@ Cloud Volumes ONTAP システムの最大システム容量はライセンスで
 
 
 
+[[aggregate-limits]]
 == アグリゲートの制限
 
 Cloud Volumes ONTAP は Azure ストレージをディスクとして使用し、これらを _Aggregate__ にグループ化します。アグリゲートは、ボリュームにストレージを提供します。
@@ -83,6 +85,7 @@ Cloud Volumes ONTAP は Azure ストレージをディスクとして使用し�
 
 
 
+[[disk-and-tiering-limits-by-vm-size]]
 == ディスクおよび階層化の制限を VM のサイズごとに設定します
 
 容量制限は、使用するVMのサイズ、およびシングルノードシステムとHAペアのどちらを使用しているかによって異なります。
@@ -101,6 +104,7 @@ Cloud Volumes ONTAP は Azure ストレージをディスクとして使用し�
 
 
 
+[[limits-for-capacity-based-licensing]]
 === 容量ベースのライセンスの制限
 
 容量ベースのライセンスパッケージを使用するCloud Volumes ONTAP システムには、次のディスク制限が適用されます。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP のライセンスオプションについて説明します"^]
@@ -256,6 +260,7 @@ Cloud Volumes ONTAP は Azure ストレージをディスクとして使用し�
 |===
 
 
+[[limits-for-node-based-licensing]]
 === ノードベースのライセンスには制限があります
 
 次のディスク制限は、ノード単位のライセンスをCloud Volumes ONTAP に付与することが可能な旧世代のライセンスモデルであるノードベースのライセンスを使用するCloud Volumes ONTAP システムに適用されます。既存のお客様は、ノードベースのライセンスを引き続き利用できます。
@@ -486,6 +491,7 @@ HAペアには、ページBLOBと複数のアベイラビリティゾーンと�
 ====
 
 
+[[storage-vm-limits]]
 == Storage VM の制限
 
 一部の構成では、 Cloud Volumes ONTAP 用に Storage VM （ SVM ）を追加で作成することができます。
@@ -531,6 +537,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 
 
 
+[[file-and-volume-limits]]
 == ファイルとボリュームの制限
 
 [cols="22,22,56"]
@@ -568,6 +575,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 
 
 
+[[iscsi-storage-limits]]
 == iSCSI ストレージの制限
 
 [cols="3*"]
